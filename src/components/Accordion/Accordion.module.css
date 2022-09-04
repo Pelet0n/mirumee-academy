@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+.main{
+    width:75%;
+    background-color:aquamarine;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+.header{
+    font-weight: 800;
+    font-family: 'Lato', sans-serif;
+
+}
+
+.extend{
+    margin-top: 20px;
+    padding: 0;
+}
+
+.arrow{
+    width: 30px;
+    transition: 500ms;
+    float:right
+}
+
+.arrow_rotate{
+    transform:rotate(180deg);
+}

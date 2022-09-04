@@ -118,7 +118,7 @@ function useFilms() {
     async () => {
       const data = await client.request(
         gql`
-          query {
+          query Films{
             allFilms {
               films {
                 id

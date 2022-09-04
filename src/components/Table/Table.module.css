@@ -1,0 +1,30 @@
+.main{
+    width: 100%;
+    display: table;
+    transition: 500ms;
+}
+
+.header{
+    display: table-header-group;
+    background-color:aqua ;
+}
+
+.headerCell{
+    display: table-cell;
+    padding: 10px;
+    text-align: justify;
+    border-bottom: 1px solid black;
+}
+
+.body{
+    display: table-row-group;
+}
+
+.bodyRow{
+    display: table-row;
+}
+
+.bodyCell{
+    display: table-cell;
+    padding: 10px;
+}
